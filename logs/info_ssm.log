@@ -1,0 +1,37 @@
+[INFO] [2016-05-05 21:47:52][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-05-05 21:47:52][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu May 05 21:47:52 CST 2016]; root of context hierarchy
+[INFO] [2016-05-05 21:47:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+[INFO] [2016-05-05 21:47:52][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database/jdbc.properties]
+[INFO] [2016-05-05 21:47:52][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-05-05 21:47:52][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 594 ms
+[INFO] [2016-05-05 21:47:52][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2016-05-05 21:47:52][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Thu May 05 21:47:52 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-05-05 21:47:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+[INFO] [2016-05-05 21:47:52][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-05-05 21:47:52][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser] onto handler 'userController'
+[INFO] [2016-05-05 21:47:52][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser.*] onto handler 'userController'
+[INFO] [2016-05-05 21:47:52][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser/] onto handler 'userController'
+[INFO] [2016-05-05 21:47:52][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 171 ms
+[INFO] [2016-05-05 21:48:20][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu May 05 21:48:20 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-05-05 21:48:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+[INFO] [2016-05-05 21:48:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/F:/WorkSpace/eclipse/MySSM/target/classes/cxf/cxf-servlet.xml]
+[INFO] [2016-05-05 21:48:21][org.apache.cxf.common.injection.ResourceInjector]failed to resolve resource com.cn.hnust.facade.UserFacadeImpl/userService
+[INFO] [2016-05-05 21:48:21][org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean]Creating Service {http://facade.hnust.cn.com/}UserFacadeImplService from class com.cn.hnust.facade.UserFacadeImpl
+[INFO] [2016-05-05 21:48:21][org.apache.cxf.endpoint.ServerImpl]Setting the server's publish address to be /UserFacadeImpl
+[INFO] [2016-05-05 21:48:23][com.cn.hnust.facade.UserFacadeImpl]收到User查询条件:1
+[INFO] [2016-05-05 21:48:23][com.cn.hnust.service.impl.UserServiceImpl]收到查询用户参数,id=1
+[INFO] [2016-05-05 21:48:24][com.cn.hnust.service.impl.UserServiceImpl]查询用户结果:{"age":24,"id":1,"name":"胡辉","password":"sfasgfaf"}
+[INFO] [2016-05-05 21:49:31][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+[INFO] [2016-05-05 21:49:31][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@1f4e1672: startup date [Thu May 05 21:49:31 CST 2016]; root of context hierarchy
+[INFO] [2016-05-05 21:49:31][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database/jdbc.properties]
+[INFO] [2016-05-05 21:49:31][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-05-05 21:49:32][com.cn.hnust.service.impl.UserServiceImpl]收到查询用户参数,id=1
+[INFO] [2016-05-05 21:49:32][com.cn.hnust.service.impl.UserServiceImpl]查询用户结果:{"age":24,"id":1,"name":"胡辉","password":"sfasgfaf"}
+[INFO] [2016-05-05 21:49:32][com.cn.mytest.TestSpringAndMyBatis]user --> {"age":24,"id":1,"name":"胡辉","password":"sfasgfaf"}
+[ERROR] [2016-05-05 21:49:32][com.cn.mytest.TestSpringAndMyBatis]参数错误com.cn.hnust.domain.User@3d65613
+[WARN] [2016-05-05 21:49:32][com.cn.mytest.TestSpringAndMyBatis]这是一个警告
+[INFO] [2016-05-05 21:49:32][com.cn.hnust.facade.UserFacadeImpl]收到User查询条件:1
+[INFO] [2016-05-05 21:49:32][com.cn.hnust.service.impl.UserServiceImpl]收到查询用户参数,id=1
+[INFO] [2016-05-05 21:49:32][com.cn.hnust.service.impl.UserServiceImpl]查询用户结果:{"age":24,"id":1,"name":"胡辉","password":"sfasgfaf"}
+[INFO] [2016-05-05 21:49:32][com.cn.mytest.TestUserFacade]测试User查询结果:{}{"age":24,"id":1,"name":"胡辉","password":"sfasgfaf"}
+[INFO] [2016-05-05 21:49:32][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@1f4e1672: startup date [Thu May 05 21:49:31 CST 2016]; root of context hierarchy
