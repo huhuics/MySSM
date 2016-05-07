@@ -7,7 +7,7 @@
 
 	<!-- CXF与Spring整合 -->
 	<!-- 声明服务 -->
-	<bean id="userFacade" class="com.cn.hnust.facade.UserFacadeImpl">
+	<bean id="userFacade" class="com.cn.hnust.facade.impl.UserFacadeImpl">
 		<property name="userService" ref="userServiceImpl" />
 	</bean>
 	

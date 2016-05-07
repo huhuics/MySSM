@@ -2,7 +2,7 @@
  * Beijing Jiaotong University
  * Copyright (c) 1896-2016 All Rights Reserved.
  */
-package com.cn.hnust.facade;
+package com.cn.hnust.facade.impl;
 
 import javax.annotation.Resource;
 import javax.jws.WebMethod;
@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import com.cn.hnust.domain.User;
+import com.cn.hnust.facade.UserFacade;
 import com.cn.hnust.service.UserService;
 
 /**
