@@ -1,5 +1,7 @@
 package com.cn.hnust.dao;
 
+import java.util.List;
+
 import com.cn.hnust.domain.User;
 
 public interface UserMapper {
@@ -14,4 +16,6 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+
+    List<User> selectUsers();
 }
